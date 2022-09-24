@@ -35,7 +35,7 @@ def get_jiegou(url):#获取结果
 try:
     st.set_page_config("五笔查询小工具")
     with st.form("table_1"):
-        zi = st.text_input('输入要查询的文字',max_chars=6,help='请只输入“一个”字。')
+        zi = st.text_input('输入要查询的文字（只能输入一个字，就算你输入多个也只查询第一个字）',max_chars=6,help='请只输入“一个”字。')
         if st.form_submit_button("查询"):
             get_bianma()
 except:
