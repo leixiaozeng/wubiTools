@@ -39,6 +39,7 @@ try:
         "About":"测试版本0.1",
     }
     st.set_page_config(page_title="五笔查询小工具",page_icon=":book:",menu_items=menu_dic)
+    st.info("### :book:五笔查询小工具")
     with st.form("table_1"):
         zi = st.text_input(label='输入要查询的文字（只能输入一个字，就算你输入多个也只查询第一个字)',max_chars=6,help='请只输入“一个”字。')
         if st.form_submit_button('查询'):
