@@ -9,6 +9,8 @@
 #### 使用说明
 - wubiTools_streamlit.py
 此文件为主入口，依赖够的话直接执行以下命令
+- requirements.txt
+此文件写了所有需要的依赖
 ```
 streamlit run wubiTools_streamlit.py
 ```
